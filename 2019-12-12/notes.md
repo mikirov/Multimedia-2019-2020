@@ -1,0 +1,40 @@
+Vector graphics made from curves
+==========
+## Representation of vector images(encoding)
+
+- image made out of objects
+- used when we need to draw an image fast
+- using sine and cosine functions to get new point locations
+
+### Interpolation
+
+- drawing polynomials
+- works when there is a small amount of points to be drawn
+
+### Aproximation
+
+- we have many points and we need to draw a line that goes through them
+- linear depencency based on 2 parameters
+- when there is an approximate dependency between some parameters, but not mathematical dependency
+- aproximation between bodyweight and height
+
+### Bizier curves
+
+- aka B-Spline
+- connect 2 lines
+- find their middles
+- draw 2 more lines from the middle points and so on ...
+
+- divided into 3 points and 4th degree polynomials
+~                                                      
+
+## Rasterization problems
+
+========
+
+2 main problems:
+
+- Speed of rasterization
+- rasterization quality
+
+Mid-point line algorithm
