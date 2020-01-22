@@ -1,0 +1,14 @@
+test topics:
+
+- finding a contour and many contours - definition, algorithm
+- line rasterization - mid-point algorithm
+- rendering process and it's subprocesses
+
+
+
+= Rendering process
+
+== 3d models
+
+- primities
+- user defined
